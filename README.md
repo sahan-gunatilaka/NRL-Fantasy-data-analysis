@@ -1,8 +1,10 @@
 # NRL Fantasy Data Analysis (2021–2026)
 
+**Status:** 🚧 In Progress — actively updated as new NRL Fantasy rounds are played and new analysis is added
+
 A personal data analysis project exploring six seasons of my own NRL Fantasy performance — round scores, overall rank, round rank, and trade activity — using Python and SQL.
 
-This project was built primarily to practice and demonstrate data cleaning, database design, and SQL querying skills using a real, personally meaningful dataset.
+This project was built primarily to practice and demonstrate data cleaning, database design, and SQL querying skills on a real, personally meaningful dataset.
 
 > **Note:** The 2026 season is still in progress. Figures and findings below reflect completed rounds only and will be updated as the season continues.
 
