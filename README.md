@@ -4,7 +4,7 @@
 
 A personal data analysis project exploring six seasons of my own NRL Fantasy performance — round scores, overall rank, round rank, and trade activity — using Python and SQL.
 
-This project was built primarily to practice and demonstrate data cleaning, database design, and SQL querying skills on a real, personally meaningful dataset.
+This project was built primarily as a way to practice and demonstrate data cleaning, database design, and SQL querying skills on a real, personally meaningful dataset.
 
 > **Note:** The 2026 season is still in progress. Figures and findings below reflect completed rounds only and will be updated as the season continues.
 
@@ -26,6 +26,14 @@ Each row captures, for a given season and round:
 - Raw yearly exports had inconsistent formatting (extra currency columns, comma-formatted numbers, inconsistent header rows) — resolved by consolidating into one clean master sheet.
 - NRL Fantasy's trade rules and caps changed between seasons (e.g. 2021: 34 total trades; 2022: 36 total; 2023–2026: 44 total).
 - Season length also changed: 2021 and 2022 ran for 25 rounds, while 2023–2026 ran for 27 rounds — worth keeping in mind when comparing season totals (e.g. `overall_score`) directly, since later seasons have two extra rounds to accumulate points.
+
+## Notebook Structure
+
+The notebook is organised into three sections:
+
+1. **Data Cleaning (Python)** — reading the raw CSV, dropping incomplete rows, converting types, renaming columns
+2. **Analysing Data (SQL)** — querying the SQLite database for scores, ranks, trades, and score-tier breakdowns
+3. **Visual Analysis** — Matplotlib charts built from the SQL query results
 
 ## Pipeline
 
