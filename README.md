@@ -47,6 +47,7 @@ The notebook is organised into three sections:
 4. **Store** — Load into a single SQLite database table (`nrl_fantasy`), with `(season, round)` as the primary key
 5. ** Analyse ** — Query the database directly with SQL
 6. **Visualize** — Chart key trends using Matplotlib
+7. **Interactive Dashboard** -
 
 ## Schema
 
@@ -100,13 +101,9 @@ More visuals may be added over time as the project continues.
 - **Python/pandas** — data cleaning, type conversion, handling missing/incomplete data
 - **SQL** — `SELECT`, `WHERE`, `GROUP BY`, aggregate functions (`AVG`, `MIN`, `COUNT`), `CASE` statement bucketing, correlated subqueries
 - **Database design** — schema design, primary keys, long/tidy data modelling
-- **Data visualization** — Matplotlib line charts, axis customisation (e.g. inverted axes for rank data); interactive Tableau dashboard with calculated fields, custom color palettes, and formatted tables
+- **Data visualisation** — Matplotlib line charts, axis customisation (e.g. inverted axes for rank data); interactive Tableau dashboard with calculated fields, custom colour palettes, and formatted tables
 - **Data quality investigation** — identifying and resolving inconsistencies in real-world, self-collected data across multiple years
 
 ## Tools
 
 Google Sheets, Google Colab, Python (pandas, Matplotlib), SQLite, Tableau Public
-
-## Next Steps
-
-- Deeper analysis of trade timing vs scoring outcomes
