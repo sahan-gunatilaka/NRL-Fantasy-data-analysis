@@ -1,6 +1,6 @@
 # NRL Fantasy Data Analysis (2021–2026)
 
-**Status:** ✅ Complete (2021–2026 seasons) — actively extended with further analysis
+**Status:** ✅ Complete (2021–2026 seasons)
 
 A personal data analysis project exploring six seasons of my own NRL Fantasy performance — round scores, overall rank, round rank, and trade activity — using Python and SQL.
 
